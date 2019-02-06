@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Profile</title>
+  </head>
+    <main>
+        {% extends 'base.html' %}
+        {% block main%} 
+            <div class="me">
+                <img src="u.jpeg" alt="Not really me">
+                <h1>Daniel Hughes</h1>
+                <h2>@dh23</h2>
+                <h2>Kingston, Jamaica</h2>
+                <h2></h2>Date Joined: January 8, 2014</h2>
+                <p>I'm sleepy. I like books. And I like to build websites. Just ask if you need help. :D </p>
+                <p>Posts: 18</p>
+                <p>Followers: 43</p>
+                <p>Following: 157</p>
+                <p><button>Follow</button></p>
+            </div>
+        {% endblock %}
+    </main>
+</html>
+
+import datetime 
+n = datetime.datetime.now()
+
+format_date_joined(n):
+  print "Joined" +   n.strftime("%B, %Y")
+  
