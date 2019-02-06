@@ -22,12 +22,12 @@ def home():
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html', name="Mary Jane")
+    return render_template('about.html', name="Daniel Hughes")
 
 @app.route('/profile')
 def profile():
-    """Render profile page."""
-    return render_template('profile.html')
+    """Render the profile page."""
+    return render_template('profile.html', date = format_date_joined())
 
 ###
 # The functions below should be applicable to all Flask apps.
@@ -56,6 +56,12 @@ def add_header(response):
 def page_not_found(error):
     """Custom 404 page."""
     return render_template('404.html'), 404
+    
+
+import datetime 
+def format_date_joined():
+    n = datetime.date(2014, 7, 9) 
+    return "Joined " + n.strftime("%B, %Y")
 
 
 if __name__ == '__main__':
