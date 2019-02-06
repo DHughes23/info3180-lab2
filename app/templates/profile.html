@@ -1,15 +1,17 @@
 {% extends 'base.html' %}
 {% block main %} 
+<div class="opener">
 <img src="{{url_for('static', filename='notme.JPG')}}" alt="Not really me"/>
 <h1>Daniel Hughes</h1>
 <h5>@dh23</h5>
 <h5>Kingston, Jamaica</h5>
 <h5>{{ date }}</h5>
-<div>
+</div>
+<div class="closer">
 <p>I'm sleepy. I like books. And I like to build websites. Just ask if you need help. :D </p>
-<p>Posts: 18</p>
-<p>Followers: 43</p>
-<p>Following: 157</p>
+<p>Posts 18</p>
+<p>Followers 43</p>
+<p>Following 157</p>
 <p><button>Follow</button></p>
 </div>
 {% endblock %}

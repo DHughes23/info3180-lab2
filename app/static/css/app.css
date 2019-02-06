@@ -1,3 +1,21 @@
 body {
     padding-top: 5rem;
 }
+
+.opener{
+    max-width: 500px;
+    background-color: beige;
+    text-align: center;
+}
+
+.closer{
+    max-width: 500px;
+    background-color: lavender;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width:350px;
+    height:350px;
+}
