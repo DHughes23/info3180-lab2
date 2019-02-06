@@ -5,18 +5,9 @@ body {
     
 }
 
-div{
-    border-color:yellow;    
-}
-
-
-
-.grid-container{
-    grid-columns:0px 0px 0px 0px;    
-}
 
 .opener{
-    max-width: 5000px;
+    max-width: 2000px;
     background-color: beige;
     text-align: center;
     padding: 0px;
@@ -25,7 +16,7 @@ div{
 }
 
 .closer{
-    max-width: 5000px;
+    max-width: 2000px;
     background-color: lavender;
     text-align: center;
     padding: 0px;
@@ -35,11 +26,15 @@ div{
 
 img{
     border-radius: 50%;
-    width:300px;
-    height:300px;
+    width:175px;
+    height:175px;
 }
 
 button{
-    background-color: LimeGreen;
+    background-color: MidnightBlue;
+    color: LightCyan;
+    border-color: MidnightBlue;
+    border-radius: 5px;
+    width: 125px;
     
 }
