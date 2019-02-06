@@ -5,6 +5,16 @@ body {
     
 }
 
+.met{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 250px;
+    
+    max-width: 500px;
+    margin: auto;
+    
+}
 
 .opener{
     max-width: 2000px;
@@ -12,7 +22,8 @@ body {
     text-align: center;
     padding: 0px;
     border:none;
- 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .closer{
@@ -21,7 +32,29 @@ body {
     text-align: center;
     padding: 0px;
     border:none;
-    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.stats{
+    max-height: 100px;
+    margin:auto;
+    text-align: center;
+    flex-wrap: nowrap;
+    background-color: violet;
+}
+
+.P{
+    text-align:left;
+}
+
+.Foll{
+    text-align:center;
+    max-height: 10px;
+}
+
+.Minions{
+    text-align:right;
 }
 
 img{
@@ -37,4 +70,6 @@ button{
     border-radius: 5px;
     width: 125px;
     
+
 }
+
